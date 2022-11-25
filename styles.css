@@ -1,0 +1,22 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.hero-container{
+    background: #1F2937;
+    display:flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    gap: 25px;
+}
