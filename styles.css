@@ -1,14 +1,27 @@
 body{
     font-family: Roboto, sans-serif;
+
 }
 
-.hero-container{
+
+.main-container{
     background: #1F2937;
     display:flex;
     color: aliceblue;
-    justify-content: space-around;
-    align-items: center;
+flex-direction: column;
+padding-left: 120px;
+padding-right: 80px;
 }
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+
 
 .left{
     font-size: 24px;
@@ -19,4 +32,26 @@ body{
 .right{
     display: flex;
     gap: 25px;
+}
+
+.hero_main_text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-container{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeholder-container{
+    background-color: grey;
+    width: 500px;
+    height: 200px;
 }
