@@ -3,7 +3,10 @@ body{
 
 }
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .main-container{
     background: #1F2937;
     display:flex;
@@ -70,4 +73,22 @@ button{
     color: white;
     padding: 5px 20px 5px 20px;
     
+}
+
+.info_main_text{
+font-size: 36px;
+font-weight:800;
+color:#1F2937;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.box-container{
+    display: flex;
+    gap: 10px;
 }
