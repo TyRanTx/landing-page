@@ -48,12 +48,6 @@ padding-bottom: 100px;
     display: flex;
 }
 
-.hero-container{
-    
-    display: flex;
-    justify-content: space-between;
-}
-
 .placeholder-container{
     display: flex;
     align-items: center;
@@ -64,21 +58,24 @@ padding-bottom: 100px;
     
 }
 
-button{
+.button1{
     border: none;
     font-weight: bold;
     border-radius: 5px;
     margin-top: 10px;
-    background-color: #3882F6;
+    background-color:#3882F6;;
     color: white;
     padding: 5px 20px 5px 20px;
     
 }
 
-.info_main_text{
+.information-header{
 font-size: 36px;
 font-weight:800;
 color:#1F2937;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -88,7 +85,92 @@ color:#1F2937;
     border-radius: 15px;
 }
 
+.second-container{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+}
+
+.box1_container, .box2_container, .box3_container, .box4_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
 .box-container{
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #E5E7EB;
+    color: BLACK;
+    border: 2px solid black;
+    padding: 100px 0px 100px 0px;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    border: 2px solid black;
+    width: 820px;
+    
+}
+
+.credits{
+    display: flex;
+    width: 820px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    margin-right: 20px;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.fourth-container{
+    display: flex;
+    justify-content: center;
+}
+.blue_box{
+    background-color: #3882F6;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.calltoaction_title{
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+
+.calltoaction_text{
+    color: white;
+}
+
+.button2{
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:#3882F6;;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    
 }
